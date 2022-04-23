@@ -94,7 +94,7 @@ function Home() {
                   href={`https://rinkeby.etherscan.io/tx/${transactionHash}`}
                   style={{ color: "blue" }}
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   check transaction
                 </a>
@@ -109,7 +109,7 @@ function Home() {
                 href={`https://testnets.opensea.io/assets/0x3128e7e5c5772c7bf0914d34b30ccce0bba78f72/${totalSupply}`}
                 style={{ color: "blue" }}
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 View NFT Here
               </a>
